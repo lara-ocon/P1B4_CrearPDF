@@ -29,27 +29,61 @@ if __name__ == "__main__":
     <head>
         <title>Reporte ejecutivo</title>
     </head>
+
     <body>
-        <h1>Práctica 1 Bloque 4 - Adquisición de Datos</h1>
-        <h2>Lara Ocón Madrid - 202115710</h2>
-        <h3>Reporte ejecutivo pizzería "Maven Pizzas"</h3>
-        <p>Este es un reporte ejecutivo de la pizzería Maven Pizzas</p>
-        <p>El reporte contiene información sobre las ventas de la pizzería, las pizzas pedidas por semana, los ingredientes necesitados a la semana, la predicción de ingredientes propuesto para la semana, y la comparación entre dicha predicción y los ingredientes finalmente necesitados.</p>
-        <p>En primer lugar, mostramos la predicción propuesta de ingredientes necesitados a la semana. Para calcular dicha predicción, hemos calculado la cantidad utilizada de cada ingrediente para cada semana y hemos calculado la media de todas las semanas. Después, hemos multiplicado la media para cada ingrediente por 1.2, factor que hemos elegido para evitar que pueda llegar a haber escasez de un ingrdiente una semana concreta.</p>
-        <p>A continuación se muestra la predicción de ingredientes propuesta:</p>
-        <img src="imagenes/prediccion_ingredientes.png" alt="Predicción de ingredientes">
+   
+        <div style="text-align:center">
+            <br/>
+            <h1 style="font-size: 40px; font-weight: bold;">Reporte ejecutivo</h1>
+            <h2 style="font-size: 25px; font-weight: bold;">"Maven Pizzas"</h2>
+            <img src="imagenes/log.png" alt="Comparación de ingredientes" width="600" height="600">
+            <p style="font-size: 20px; font-weight: bold;">Autor: Lara Ocón Madrid </p>
+    
         <div style="page-break-after: always;"></div>
-        <p>A continuación se muestra la comparación entre la predicción de ingredientes y los ingredientes finalmente necesitados:</p>
-        <img src="imagenes/diferencia_prediccion_realidad_ingredientes.png" alt="Comparación de ingredientes">
-        <p>Vease el caso del ingrediente "Garlic", el mas usado en la pizzería, la diferencia entre la cantidad necesaria propuesta y la cantidad que se ha necesitado de dicho ingrediente en la pizzería a lo largo de las semanas.</p>
-        <img src="imagenes/diferencia_prediccion_realidad_Garlic.png" alt="Comparación de Garlic">
+
+        <div style="text-align:center">
+            <br/>
+            <h1 style="font-size: 40px; font-weight: bold;">Índice</h1>
+            <br/>
+            <p style="font-size: 20px; font-weight: bold;">1. Predicción Ingredientes</p>
+            <p style="font-size: 20px; font-weight: bold;">2. Predicción vs Realidad</p>
+            <p style="font-size: 20px; font-weight: bold;">3. Análisis de las ganancias</p>
+       
         <div style="page-break-after: always;"></div>
-        <p>A continuación se muestran las ganancias para cada semana del año:</p>
-        <img src="imagenes/ganancias_semana.png" alt="Ganancias por semana">
-        <p>Vease también las ganancias por mes:</p>
-        <img src="imagenes/ganancias_mes.png" alt="Ganancias por mes">
+
+        <div style="text-align:left">
+            <h1 style="font-size: 30px; font-weight: bold;">1. Predicción de ingredientes</h1>
+            <p>Este es un reporte ejecutivo de la pizzería Maven Pizzas</p>
+            <p>El reporte contiene información sobre las ventas de la pizzería, las pizzas pedidas por semana, los ingredientes necesitados a la semana, la predicción de ingredientes propuesto para la semana, y la comparación entre dicha predicción y los ingredientes finalmente necesitados.</p>
+            <p>En primer lugar, mostramos la predicción propuesta de ingredientes necesitados a la semana. Para calcular dicha predicción, hemos calculado la cantidad utilizada de cada ingrediente para cada semana y hemos calculado la media de todas las semanas. Después, hemos multiplicado la media para cada ingrediente por 1.2, factor que hemos elegido para evitar que pueda llegar a haber escasez de un ingrdiente una semana concreta.</p>
+            <p>A continuación se muestra la predicción de ingredientes propuesta:</p>
+            <img src="imagenes/prediccion_ingredientes.png" alt="Predicción de ingredientes">
         <div style="page-break-after: always;"></div>
+
+        <div style="text-align:left">
+            <p style="font-size: 15px; font-weight: bold;">2. Predicción  vs Realidad</p>
+            <div style="text-align:center">
+                <img src="imagenes/diferencia_prediccion_realidad_ingredientes.png" alt="Comparación de ingredientes" width="450" height="450">
+            </div>
+            <div style="text-align:left">
+                <p>Vease el caso del ingrediente "Garlic", el mas usado en la pizzería, la diferencia entre la cantidad necesaria propuesta y la cantidad que se ha necesitado de dicho ingrediente en la pizzería a lo largo de las semanas.</p>
+            </div>
+            <div style="text-align:center">
+                <img src="imagenes/diferencia_prediccion_realidad_Garlic.png" alt="Comparación de Garlic" width="450" height="450">
+            </div>
+        <div style="page-break-after: always;"></div>
+
+        <div style="text-align:left">
+            <p style="font-size: 15px; font-weight: bold;">3. Análisis de las ganancias</p>
+            <div style="text-align:center">
+                <img src="imagenes/ganancias_semana.png" alt="Ganancias por semana" width="500" height="500">
+            </div>
+            <div style="text-align:center">
+                <img src="imagenes/ganancias_mes.png" alt="Ganancias por mes" width="500" height="500">
+            </div>
+
     </body>
+
     </html>
     """
 
